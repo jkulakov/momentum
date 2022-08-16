@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="assets/favicon.ico" rel="shortcut icon" />
+  <link rel="stylesheet" href="css/owfont-regular.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <meta http-equiv="Permissions-Policy" content="interest-cohort=()"/>
+  <title>momentum</title>
+</head>
+<body>
+  <header class="header">
+    <div class="player">
+      <div class="player-controls">
+        <button class="play-prev player-icon"></button>
+        <button class="play player-icon"></button>
+        <button class="play-next player-icon"></button>
+      </div>
+      <audio src=""></audio>
+      <ul class="play-list"></ul>
+    </div>
+    <div class="weather">
+      <input type="text" class="city">
+      <i class="weather-icon owf"></i>
+      <div class="weather-error"></div>
+      <div class="description-container">
+        <span class="temperature"></span>
+        <span class="weather-description"></span>
+      </div>
+      <div class="wind"></div>
+      <div class="humidity"></div>
+    </div>
+    <div>
+      <img class="language_img" id="en" src="https://media.flaticon.com/dist/min/img/flags/en.svg" width="40" height="35" loading="lazy">
+      <img class="language_img language_img-active" id="ru" src="https://media.flaticon.com/dist/min/img/flags/ru.svg" width="40" height="35" loading="lazy">
+    </div>
+  </header>
+  <main class="main">
+    <div class="slider-icons">
+      <button class="slide-prev slider-icon"></button>
+      <button class="slide-next slider-icon"></button>
+    </div>
+    <time class="time"></time>
+    <date class="date"></date>
+    <div class="greeting-container">
+      <span class="greeting"></span>
+      <input type="text" class="name" />
+    </div>
+  </main>
+  <footer class="footer">
+   
+    <button class="change-quote"></button>
+    <div>
+      <div class="quote"></div>
+      <div class="author"></div>
+    </div>
+    <div class="footer_links">
+      <a href="https://github.com/jkulakov" target="_blank" class="git_link">My Github</a>
+      <p class="copy">&#169; 2022</p>
+      <a href="https://rs.school/js/" target="_blank">
+        <img src="https://static10.tgstat.ru/channels/_0/08/08c2d2e9a3cdcfd9516bda42d63138f5.jpg" alt="RSSchool" class="rs_logo">
+      </a>
+    </div>
+  </footer>
+  <script type="module" src="js/script.js"></script>
+</body>
+</html>
